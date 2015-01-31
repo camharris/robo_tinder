@@ -7,5 +7,10 @@ that they:
   1. Have at least 3 photos (in order to avoid bots)
   2. Are within 12 miles of your last reported location
   3. Are the desired sex (female in my case)
-The values can easily be changed by editing the script. After proccesing 10 profiles the script sleeps for 15 seconds to prevent overloading Tinder's servers
 
+The values can easily be changed by editing the script. After proccesing 10 profiles the script sleeps for 15 seconds to prevent overloading Tinder's servers
+In order to run the script simply install the needed gem's with bundle:
+
+~ $ cd robo_tinder
+~/robo_tinder $ bundle install
+~/robo_tinder $ ./robo_tinder.rb
