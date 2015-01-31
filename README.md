@@ -10,7 +10,8 @@ that they:
 
 The values can easily be changed by editing the script. After proccesing 10 profiles the script sleeps for 15 seconds to prevent overloading Tinder's servers
 In order to run the script simply install the needed gem's with bundle:
-
+```
 ~ $ cd robo_tinder
-~/robo_tinder $ bundle install
+~/robo_tinder $ bundle 
 ~/robo_tinder $ ./robo_tinder.rb
+```
